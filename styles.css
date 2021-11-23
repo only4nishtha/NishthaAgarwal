@@ -1,0 +1,228 @@
+* {
+    margin: 0px;
+    margin-top: 1px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.slide {
+    width: 70vw;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 400vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+.one {
+    background: #efdefe;
+    width: 70vw;
+}
+
+.two {
+    background: #a3f3d3;
+    width: 92vw;
+}
+
+.three {
+    background: #fae79b;
+}
+
+.four {
+    background: #fec5ef;
+    width: 40vw;
+}
+
+.outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    color: rgb(5, 25, 85);
+    margin-top: 5vw;
+    margin-left: 3vh;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12vh;
+}
+
+.note {
+    color: rgb(177, 22, 82);
+    margin-top: 0.3vw;
+    margin-left: 7.5vh;
+    font-family: 'Dosis', sans-serif;
+    font-size: 5vh;
+}
+
+.hey {
+    color: rgba(2, 63, 5, 0.856);
+    margin-top: 10vh;
+    margin-left: 20vw;
+    font-family: 'Dosis', sans-serif;
+    font-size: 6vh;
+}
+
+.myself {
+    color: rgb(240, 125, 17);
+    width: 150vh;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 8vw;
+    font-family: 'Dosis', sans-serif;
+    font-size: 3vh;
+}
+
+.img {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.projects {
+    margin-top: 30px;
+    margin-left: 15px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2vh;
+}
+
+#recent {
+    margin-left: 50px;
+    margin-top: 1vw;
+    font-family: 'Dosis', sans-serif;
+    font-size: 3vh;
+    color: purple;
+}
+
+.moveAlong {
+    margin-top: 200px;
+    margin-left: 130px;
+}
+
+.card {
+    width: 19.8vw;
+    height: 41.3vh;
+    border: 5px black solid;
+    background-color: #019097;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.title1 {
+    position: relative;
+    text-align: center;
+    height: 4vh;
+    background-color: #024144;
+}
+
+.title2 {
+    margin-top: 4vh;
+    position: relative;
+    text-align: center;
+    height: 6vh;
+    background-color: #024144;
+}
+
+.text {
+    color: #fcf3e4;
+    font-weight: normal;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.git {
+    color: #fcf3e4;
+    /* font-weight: bolder; */
+    font-size: 6vh;
+}
+
+.git:hover {
+    background: linear-gradient(#024144, #14b4bd, #024144);
+    transform: translateY(-10px);
+    color: rgb(2, 2, 122);
+}
+
+.text:hover {
+    color: yellow;
+}
+
+.pic {
+    height: 25vh;
+    width: 19vw;
+}
+
+.flex4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+
+.art {
+    border: 1px black;
+}
+
+.draw {
+    border: black 10px;
+}
+
+.flex5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.connect {
+    color: purple;
+    margin-top: 7vh;
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+    font-family: 'Dosis', sans-serif;
+    font-size: 10vh;
+}
+
+.logo {
+    color: rgb(64, 75, 224);
+    font-size: 18vh;
+    margin: 1.2vw 6vw;
+}
+
+.flex6 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex7 {
+    display: flex;
+    flex-direction: column;
+}
